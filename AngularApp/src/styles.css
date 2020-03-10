@@ -1,0 +1,74 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body,
+.login-box {
+  height: 100%;
+  background-color: #27a57f;
+}
+
+form div.input-field input{
+    padding-left: 15px !important;
+    color: #d4b241;
+}
+
+input.ng-invalid.ng-dirty{
+    border-bottom-color : #000000 !important;
+    box-shadow: 0 1px 0 0 #000000 !important;
+}
+
+.input-field input[type=text]:focus + label {
+    color: #000;
+  }
+
+.input-field>label{
+    color:rgb(78, 78, 78);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+label::after{
+    color: #000000;
+}
+
+.btn-custom,.btn-custom:hover,.btn-custom:focus{
+    background-color: #27a57f;
+    font-size: 1.1rem;
+    margin : 0px 5px;
+    border: #fff solid 1px ;
+    text-transform:none;
+}
+
+div.card{
+    background-color : #e6e6e6;
+    border-radius: 10px;
+}
+div.col.s5{
+    background-color: #e6e6e6;
+    border-radius: 5px;
+}
+
+.vl {
+    border-left: 2px solid #27a57f;
+    height: 400px;
+}
+
+a.action-btn{
+    color: #27a57f ;
+    margin: 0px 5px;
+
+}
+a.action-btn:hover{
+    cursor: pointer;
+}
+
+#toast-container {
+    top: auto !important;
+    right: auto !important;
+    bottom: 10%;
+    left:7%;
+  }
+
+th, td{
+    color: #000000;
+}
